@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+}
+
+body
+{
+    background-color: rgb(2, 9, 34);
+    margin: 5px;
+    padding: 10px;
+}
+
+
+header{
+    padding: 20px 50px;
+    margin: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:20px ;
+    text-align: center;
+    color: rgb(255, 247, 174);
+    
+   
+    background-color: rgb(39, 35, 94);
+}
+
+
+
+.marco2{
+    padding: 20px 50px;
+    margin: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:16px ;
+    text-align:justify;
+    color: rgb(255, 247, 174);
+}
+
+.marco3{
+    padding: 20px 50px;
+    margin: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:16px ;
+    text-align:center;
+    color: rgb(255, 247, 174);
+}
+
+
+h2{
+    padding: 20px 50px;
+    margin: 10px;
+    font-family: arial;
+    font-size:18px ;
+    color: rgb(255, 247, 174);
+
+    width: 100%;
+    background-color: rgb(39, 35, 94);
+}
+
+
+
+footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(30, 23, 133);
+    color: rgb(255, 247, 174);
+    text-align: center;
+}
+
+.column {
+    float: left;
+   width: 31%;
+    padding: 5px;
+}
+
+.row::after {
+   content: "";
+   clear: both;
+   display: table;
+}
+
+a:houver, a:active{
+   background-color: rgb(101, 143, 221);
+}
+
+
+
+nav{
+    overflow: hidden;
+    background-color:  rgb(31, 26, 97);
+    padding: 20px 10px;
+    }
+nav  a{
+    float: center;
+    
+    color:rgb(255, 247, 174);
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+    }
+
+
+
+.video{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid rgb(30, 23, 133);
+    border-radius: 30px;
+    padding: 5px;
+}
+
+
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(4, 3fr);
+    grid-gap: 1em;
+    grid-template-rows: minmax(20px auto);
+    padding: 20px;
+  }
+  .contenedor div {
+    background: rgb(39, 35, 94);
+    padding: 1em;
+  }
+  .contenedor div:hover {
+    border: 5px solid rgb(30, 23, 133);
+  }
+  div{
+    color: rgb(255, 247, 174);
+  }
+  
+div.desc {
+  padding: 15px;
+  text-align: center;
+  background: rgb(17, 12, 87);
+  color: rgb(255, 247, 174);
+  font-size: 24px;}
